@@ -1,0 +1,19 @@
+<script type="text/javascript">
+function readForm(){
+  var myVariable = value;
+  <input type="radio" id="est" name="tz" value="est"> 
+  <input type="radio" id="est" name="tz" value="cst"> 
+  <input type="radio" id="est" name="tz" value="mst"> 
+  <input type="radio" id="est" name="tz" value="pst"> 
+  <input type="radio" id="est" name="tz" value="ast"> 
+  <input type="radio" id="est" name="tz" value="hst"> 
+  var radioButtons = document.getElementsByName("tz");
+  radioButtons[0].value
+  for (var i = 0; i < radioButtons.length; i++){var radioButtons = document.getElementsByName("tz");
+if (radioButtons[i].checked == true){var radioButtons = document.getElementsByName("tz")}
+document.getElementById("result").innerHTML = output;
+<button type="button" value="Submit" onclick="ValidateForm()"> Submit </button>
+</script>
+
+
+
